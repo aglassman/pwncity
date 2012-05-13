@@ -1,0 +1,394 @@
+TPWNCity
+v7
+r0
+t302992998.779327
+cCheck dependencies
+cProcessInfoPlistFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist PWNCity-Info.plist
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+cCpResource "build/Release-iphonesimulator/PWNCity.app/bg copy.png" "bg copy.png"
+cCpResource build/Release-iphonesimulator/PWNCity.app/icon.png icon.png
+cCpResource "build/Release-iphonesimulator/PWNCity.app/1st copy.png" "1st copy.png"
+cCpResource "build/Release-iphonesimulator/PWNCity.app/fire copy.png" "fire copy.png"
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+cProcessPCH /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch.gch PWNCityFree_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/main.o /Users/kyleluchinski/Desktop/PWNCityFree/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeAppDelegate.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PropsViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity normal i386
+cGenerateDSYMFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app.dSYM /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity
+cTouch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004ACECAA900000000000000EE
+t1255066281
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png
+c000000004AB3D2980000000000000BE3
+t1253298840
+s3043
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.h
+c000000004AB71B100000000000000256
+t1253514000
+s598
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m
+c000000004AB71B1000000000000002E1
+t1253514000
+s737
+i"PWNCityFreeAppDelegate.h"
+i"PWNCityFreeViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.h
+c000000004AB7169600000000000002B5
+t1253512854
+s693
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m
+c000000004AEB2EC7000000000000134F
+t1256926919
+s4943
+i"PWNCityFreeViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.h
+c000000004AB7D0800000000000000143
+t1253560448
+s323
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m
+c000000004B442B4A0000000000000872
+t1262758730
+s2162
+i"PropsViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+c000000004AB7D1DD0000000000001EB3
+t1253560797
+s7859
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+c000000004AB71EE500000000000039EC
+t1253514981
+s14828
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+c000000004AB71F3F0000000000003A34
+t1253515071
+s14900
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFree_Prefix.pch
+c000000004AB7155100000000000000BF
+t1253512529
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png
+c000000004AB30FD3000000000000EA52
+t1253248979
+s59986
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCity.LinkFileList
+c000000004C1D6D1F000000000000023E
+t1276996895
+s574
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeAppDelegate.o
+t1276996899
+s41236
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeViewController.o
+t1276996899
+s50228
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PropsViewController.o
+t1276996899
+s37208
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/main.o
+t1276996899
+s5940
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app
+t1276996899
+s408
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app.dSYM
+t1276996899
+s102
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/1st copy.png
+t1276996898
+s3043
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist
+t1276996895
+s589
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/MainWindow.nib
+t1276996897
+s2930
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity
+t1276996899
+s28160
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCityFreeViewController.nib
+t1276996897
+s3731
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PkgInfo
+t1276996895
+s8
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PropsViewController.nib
+t1276996898
+s1451
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/bg copy.png
+t1276996898
+s59986
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/fire copy.png
+t1276996898
+s3209
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/icon.png
+t1276996898
+s4168
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png
+c000000004AB3D4230000000000000C89
+t1253299235
+s3209
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/icon.png
+c000000004ACE60EE0000000000001048
+t1255039214
+s4168
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/main.m
+c000000004AB71551000000000000016F
+t1253512529
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch.gch
+t1276996899
+s12740048
+
+NPWNCity-Info.plist
+c000000004B442D7C000000000000036A
+t1262759292
+s874
+
+NPWNCityFree-Info.plist
+c000000004B442C420000000000000370
+t1262758978
+s880
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302992998#302992998#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeAppDelegate.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298689699.218109
+e298689699.331696
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeAppDelegate.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m298689699#298689699#0(0"0(0#0#73"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m4300885448#1996"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources/i386 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeAppDelegate.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298689699.280236
+e298689699.499554
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeViewController.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m298689699#298689699#0(0"0(0#0#76"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m4300885448#2002"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources/i386 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCityFreeViewController.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PropsViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298689699.331800
+e298689699.438246
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PropsViewController.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m298689699#298689699#0(0"0(0#0#70"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m4300885448#1990"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources/i386 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PropsViewController.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/main.o /Users/kyleluchinski/Desktop/PWNCityFree/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298689699.216779
+e298689699.280135
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/main.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kyleluchinski/Desktop/PWNCityFree/main.m298689699#298689699#0(0"0(0#0#47"/Users/kyleluchinski/Desktop/PWNCityFree/main.m4300885448#1952"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources/i386 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/main.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+s298689698.016593
+e298689698.362198
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+lSLF07#2@42"CompileXIB Classes/PropsViewController.xib298689698#298689698#0(0"0(0#0#72"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib4300885448#516"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PropsViewController.nib /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+s298689695.904172
+e298689698.009239
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298689695#298689698#0(0"0(0#0#55"/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib4300885448#490"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/MainWindow.nib /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+s298689695.904923
+e298689698.107010
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+lSLF07#2@40"CompileXIB PWNCityFreeViewController.xib298689695#298689698#0(0"0(0#0#70"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib4300885448#520"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCityFreeViewController.nib /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib0#
+
+CCpResource "build/Release-iphonesimulator/PWNCity.app/1st copy.png" "1st copy.png"
+s298689698.012987
+e298689698.039680
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PWNCity.app/1st copy.png
+x1st copy.png
+lSLF07#2@17"Copy 1st copy.png298689698#298689698#0(0"0(0#0#53"/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png4300885448#487"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png" /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app0#
+
+CCpResource "build/Release-iphonesimulator/PWNCity.app/bg copy.png" "bg copy.png"
+s298689698.009430
+e298689698.044860
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PWNCity.app/bg copy.png
+xbg copy.png
+lSLF07#2@16"Copy bg copy.png298689698#298689698#0(0"0(0#0#52"/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png4300885448#486"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png" /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app0#
+
+CCpResource "build/Release-iphonesimulator/PWNCity.app/fire copy.png" "fire copy.png"
+s298689698.014799
+e298689698.043247
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PWNCity.app/fire copy.png
+xfire copy.png
+lSLF07#2@18"Copy fire copy.png298689698#298689698#0(0"0(0#0#54"/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png4300885448#488"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png" /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app0#
+
+CCpResource build/Release-iphonesimulator/PWNCity.app/icon.png icon.png
+s298689698.011298
+e298689698.033506
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PWNCity.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png298689698#298689698#0(0"0(0#0#49"/Users/kyleluchinski/Desktop/PWNCityFree/icon.png4300885448#481"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kyleluchinski/Desktop/PWNCityFree/icon.png /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app0#
+
+CGenerateDSYMFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app.dSYM /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity
+s298689699.540949
+e298689699.582421
+r1
+xGenerateDSYMFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app.dSYM
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity
+lSLF07#2@113"GenerateDSYMFile build/Release-iphonesimulator/PWNCity.app.dSYM build/Release-iphonesimulator/PWNCity.app/PWNCity298689699#298689699#0(0"0(0#0#90"/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity4300885448#393"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app.dSYM0#
+
+CLd /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity normal i386
+s298689699.499779
+e298689699.540760
+r1
+xLd
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity
+xnormal
+xi386
+lSLF07#2@95"Link /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity298689699#298689699#0(0"0(0#0#0"4300885448#886"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -filelist /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/Objects-normal/i386/PWNCity.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PWNCity0#
+
+CProcessInfoPlistFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist PWNCity-Info.plist
+s298689695.873654
+e298689695.904071
+r1
+xProcessInfoPlistFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist
+xPWNCity-Info.plist
+lSLF07#2@26"Process PWNCity-Info.plist298689695#298689695#0(0"0(0#0#59"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCity-Info.plist4300885448#489"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PWNCity-Info.plist -genpkginfo /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist PWNCityFree-Info.plist
+s284451802.047759
+e284451802.052011
+r1
+xProcessInfoPlistFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist
+xPWNCityFree-Info.plist
+lSLF07#2@30"Process PWNCityFree-Info.plist284451802#284451802#0(0"0(0#0#63"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFree-Info.plist2494658672#493"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PWNCityFree-Info.plist -genpkginfo /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app/Info.plist0#
+
+CProcessPCH /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch.gch PWNCityFree_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298689698.362326
+e298689699.216659
+r1
+xProcessPCH
+x/var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch.gch
+xPWNCityFree_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile PWNCityFree_Prefix.pch298689698#298689699#0(0"0(0#0#63"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFree_Prefix.pch4300885448#1840"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources/i386 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphonesimulator/PWNCity.build/DerivedSources -c /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFree_Prefix.pch -o /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cegrtdmcdxkzhtbrmbpzwjxucwwi/PWNCityFree_Prefix.pch.gch0#
+
+CTouch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app
+s298689699.582512
+e298689699.594768
+r1
+xTouch
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app
+lSLF07#2@88"Touch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app298689699#298689699#0(0"0(0#0#0"4300885448#284"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphonesimulator/PWNCity.app0#
+

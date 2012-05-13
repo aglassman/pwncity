@@ -1,0 +1,487 @@
+TPWNCity
+v7
+r0
+t298761057.600102
+cCheck dependencies
+cCpResource build/Release-iphoneos/PWNCity.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/Info.plist PWNCity-Info.plist
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+cCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/bg copy.png" "bg copy.png"
+cCopyPNGFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/icon.png icon.png
+cCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/1st copy.png" "1st copy.png"
+cCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/fire copy.png" "fire copy.png"
+cCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+cProcessPCH /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch.gch PWNCityFree_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/main.o /Users/kyleluchinski/Desktop/PWNCityFree/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeAppDelegate.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PropsViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity normal armv6
+cGenerateDSYMFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app.dSYM /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity
+cProcessProductPackaging "/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision" /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision
+cTouch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent
+cCodeSign /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004ABDAC680000000000000110
+t1253944424
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png
+c000000004AB3D2980000000000000BE3
+t1253298840
+s3043
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.h
+c000000004AB71B100000000000000256
+t1253514000
+s598
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m
+c000000004AB71B1000000000000002E1
+t1253514000
+s737
+i"PWNCityFreeAppDelegate.h"
+i"PWNCityFreeViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.h
+c000000004AB7169600000000000002B5
+t1253512854
+s693
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m
+c000000004AEB2EC7000000000000134F
+t1256926919
+s4943
+i"PWNCityFreeViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.h
+c000000004AB7D0800000000000000143
+t1253560448
+s323
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m
+c000000004B442B4A0000000000000872
+t1262758730
+s2162
+i"PropsViewController.h"
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+c000000004AB7D1DD0000000000001EB3
+t1253560797
+s7859
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+c000000004AB71EE500000000000039EC
+t1253514981
+s14828
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+c000000004AB71F3F0000000000003A34
+t1253515071
+s14900
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFree_Prefix.pch
+c000000004AB7155100000000000000BF
+t1253512529
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png
+c000000004AB30FD3000000000000EA52
+t1253248979
+s59986
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCity.LinkFileList
+c000000004C1E83DE0000000000000226
+t1277068254
+s550
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeAppDelegate.o
+t1277068256
+s44020
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeViewController.o
+t1277068256
+s55688
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PropsViewController.o
+t1277068256
+s38420
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/main.o
+t1277068256
+s6644
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent
+t1277068256
+s319
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+t1277068257
+s544
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app.dSYM
+t1277068256
+s102
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/1st copy.png
+t1277068255
+s3039
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/Info.plist
+t1277068254
+s653
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/MainWindow.nib
+t1277068254
+s2930
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity
+t1277068256
+s25100
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCityFreeViewController.nib
+t1277068254
+s3731
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PkgInfo
+t1277068254
+s8
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PropsViewController.nib
+t1277068255
+s1451
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/ResourceRules.plist
+t1277068254
+s485
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/bg copy.png
+t1277068255
+s76763
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision
+t1277068256
+s7165
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/fire copy.png
+t1277068255
+s3278
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/icon.png
+t1277068255
+s4283
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png
+c000000004AB3D4230000000000000C89
+t1253299235
+s3209
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/icon.png
+c000000004ACE60EE0000000000001048
+t1255039214
+s4168
+
+N/Users/kyleluchinski/Desktop/PWNCityFree/main.m
+c000000004AB71551000000000000016F
+t1253512529
+s367
+i<UIKit/UIKit.h>
+
+N/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision
+c000000004C1D64DE0000000000001BFD
+t1276994782
+s7165
+
+N/var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cnwquflhmtzebvedupxqcpfjkdtj/PWNCityFree_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch.gch
+t1262760346
+s7700664
+
+NPWNCity-Info.plist
+c000000004B442D7C000000000000036A
+t1262759292
+s874
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298761054#298761054#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCodeSign /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+s298761056.926331
+e298761057.599964
+r1
+xCodeSign
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+lSLF07#2@43"CodeSign build/Release-iphoneos/PWNCity.app298761056#298761057#0(0"0(0#0#75"/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app4300885448#666"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Kyle Luchinski (74M2PFLEQ4)" --resource-rules=/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/ResourceRules.plist --entitlements /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app0#
+
+CCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeAppDelegate.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298761055.700875
+e298761056.281490
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeAppDelegate.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m298761055#298761056#0(0"0(0#0#73"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m4300885448#1865"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources/armv6 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeAppDelegate.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeAppDelegate.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298761056.268138
+e298761056.474955
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeViewController.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m298761056#298761056#0(0"0(0#0#76"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m4300885448#1871"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources/armv6 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PWNCityFreeViewController.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCityFreeViewController.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PropsViewController.o /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298761056.281594
+e298761056.377436
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PropsViewController.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m298761056#298761056#0(0"0(0#0#70"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m4300885448#1859"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources/armv6 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PropsViewController.o0#
+
+CCompileC build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/main.o /Users/kyleluchinski/Desktop/PWNCityFree/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298761055.699867
+e298761056.268035
+r1
+xCompileC
+xbuild/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/main.o
+x/Users/kyleluchinski/Desktop/PWNCityFree/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kyleluchinski/Desktop/PWNCityFree/main.m298761055#298761056#0(0"0(0#0#47"/Users/kyleluchinski/Desktop/PWNCityFree/main.m4300885448#1821"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-generated-files.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-own-target-headers.hmap -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-all-target-headers.hmap -iquote /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity-project-headers.hmap -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -I/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/include -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources/armv6 -I/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/DerivedSources -include /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch -c /Users/kyleluchinski/Desktop/PWNCityFree/main.m -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+s298761055.183961
+e298761055.699538
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@42"CompileXIB Classes/PropsViewController.xib298761055#298761055#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib4300885448#502"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PropsViewController.nib /Users/kyleluchinski/Desktop/PWNCityFree/Classes/PropsViewController.xib0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+s298761054.221861
+e298761054.645113
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib298761054#298761054#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib4300885448#476"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/MainWindow.nib /Users/kyleluchinski/Desktop/PWNCityFree/MainWindow.xib0#
+
+CCompileXIB /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+s298761054.222530
+e298761054.669223
+r1
+xCompileXIB
+x/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@40"CompileXIB PWNCityFreeViewController.xib298761054#298761054#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib4300885448#506"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCityFreeViewController.nib /Users/kyleluchinski/Desktop/PWNCityFree/PWNCityFreeViewController.xib0#
+
+CCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/1st copy.png" "1st copy.png"
+s298761055.067404
+e298761055.149470
+r1
+xCopyPNGFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/1st copy.png
+x1st copy.png
+lSLF07#2@76"CopyPNGFile "build/Release-iphoneos/PWNCity.app/1st copy.png" "1st copy.png"298761055#298761055#0(0"0(0#0#53"/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png4300885448#576"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/kyleluchinski/Desktop/PWNCityFree/1st copy.png" "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/1st copy.png"0#
+
+CCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/bg copy.png" "bg copy.png"
+s298761054.645215
+e298761055.353889
+r1
+xCopyPNGFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/bg copy.png
+xbg copy.png
+lSLF07#2@74"CopyPNGFile "build/Release-iphoneos/PWNCity.app/bg copy.png" "bg copy.png"298761054#298761055#0(0"0(0#0#52"/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png4300885448#574"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/kyleluchinski/Desktop/PWNCityFree/bg copy.png" "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/bg copy.png"0#
+
+CCopyPNGFile "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/fire copy.png" "fire copy.png"
+s298761055.149566
+e298761055.183866
+r1
+xCopyPNGFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/fire copy.png
+xfire copy.png
+lSLF07#2@78"CopyPNGFile "build/Release-iphoneos/PWNCity.app/fire copy.png" "fire copy.png"298761055#298761055#0(0"0(0#0#54"/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png4300885448#578"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/kyleluchinski/Desktop/PWNCityFree/fire copy.png" "/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/fire copy.png"0#
+
+CCopyPNGFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/icon.png icon.png
+s298761054.669318
+e298761055.067282
+r1
+xCopyPNGFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/icon.png
+xicon.png
+lSLF07#2@64"CopyPNGFile build/Release-iphoneos/PWNCity.app/icon.png icon.png298761054#298761055#0(0"0(0#0#49"/Users/kyleluchinski/Desktop/PWNCityFree/icon.png4300885448#564"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kyleluchinski/Desktop/PWNCityFree/icon.png /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/icon.png0#
+
+CCpResource build/Release-iphoneos/PWNCity.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s298761054.157408
+e298761054.221776
+r1
+xCpResource
+xbuild/Release-iphoneos/PWNCity.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist298761054#298761054#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist8028903794874265600#509"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app0#
+
+CCpResource build/Release-iphoneos/PWNCity.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+r0
+
+CGenerateDSYMFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app.dSYM /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity
+s298761056.813655
+e298761056.871568
+r1
+xGenerateDSYMFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app.dSYM
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity
+lSLF07#2@99"GenerateDSYMFile build/Release-iphoneos/PWNCity.app.dSYM build/Release-iphoneos/PWNCity.app/PWNCity298761056#298761056#0(0"0(0#0#83"/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity4300885448#372"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app.dSYM0#
+
+CLd /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity normal armv6
+s298761056.475057
+e298761056.813545
+r1
+xLd
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity
+xnormal
+xarmv6
+lSLF07#2@88"Link /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity298761056#298761056#0(0"0(0#0#0"4300885448#917"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -F/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos -filelist /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/Objects-normal/armv6/PWNCity.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PWNCity0#
+
+CProcessInfoPlistFile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/Info.plist PWNCity-Info.plist
+s298761054.188453
+e298761054.204741
+r1
+xProcessInfoPlistFile
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/Info.plist
+xPWNCity-Info.plist
+lSLF07#2@26"Process PWNCity-Info.plist298761054#298761054#0(0"0(0#0#59"/Users/kyleluchinski/Desktop/PWNCityFree/PWNCity-Info.plist4300885448#576"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PWNCity-Info.plist -genpkginfo /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/ResourceRules.plist -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/Info.plist0#
+
+CProcessPCH /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-cnwquflhmtzebvedupxqcpfjkdtj/PWNCityFree_Prefix.pch.gch PWNCityFree_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/65/65Jf3LadHZOne011ltX-5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PWNCityFree_Prefix-fmjdoaqfpdgnuuesjuzpzvudfpmo/PWNCityFree_Prefix.pch.gch PWNCityFree_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision" /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision
+s298761056.871679
+e298761056.891488
+r1
+xProcessProductPackaging
+x/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision" build/Release-iphoneos/PWNCity.app/embedded.mobileprovision298761056#298761056#0(0"0(0#0#100"/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision4300885448#437"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kyleluchinski/Library/MobileDevice/Provisioning Profiles/D58BA687-2AF0-46A9-9DAC-B3CE5CDC3D30.mobileprovision" -o /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent
+s298761056.896189
+e298761056.926230
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent298761056#298761056#0(0"0(0#0#109"/Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent4300885448#444"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/kyleluchinski/Desktop/PWNCityFree/build/PWNCityFree.build/Release-iphoneos/PWNCity.build/PWNCity.xcent
+r0
+
+CTouch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+s298761056.891809
+e298761056.896074
+r1
+xTouch
+x/Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app
+lSLF07#2@81"Touch /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app298761056#298761056#0(0"0(0#0#0"4300885448#270"    cd /Users/kyleluchinski/Desktop/PWNCityFree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kyleluchinski/Desktop/PWNCityFree/build/Release-iphoneos/PWNCity.app0#
+
