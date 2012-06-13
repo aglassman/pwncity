@@ -11,10 +11,14 @@
 
 @interface PropsViewController : UIViewController {
 	
-	IBOutlet UIWebView *webView;
+	IBOutlet UIView *uiView;
 
 }
 
-@property (nonatomic, retain) UIWebView *webView;
-
+@property (nonatomic, retain) UIView *uiView;
+@property (nonatomic, retain) IBOutlet UILabel *settingLabel;
+-(IBAction)setToPG;
+-(IBAction)setToPG13;
+-(IBAction)setToR;
+-(IBAction)setToCustom;
 @end

@@ -11,7 +11,8 @@
 
 @implementation PropsViewController
 
-@synthesize webView;
+@synthesize uiView;
+@synthesize settingLabel;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -26,29 +27,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	NSString *urlAddress = @"http://web.me.com/kyleluchinski/PWNCity/Home.html";
-	
-	NSString *message2 = [[NSString alloc] initWithFormat:
-						 @"You will not be able to see the props without a network connection!"];
-	UIAlertView *alert2 = [[UIAlertView alloc] initWithTitle:
-						  @"FAIL"
-													message:message2
-												   delegate:nil
-										  cancelButtonTitle:@"OK"
-										  otherButtonTitles:nil];
-	[alert2 show];
-	[alert2 release];
-	[message2 release];
-	
-	//Create a URL object.
-	NSURL *url = [NSURL URLWithString:urlAddress];
-	
-	//URL Requst Object
-	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-	
-	//Load the request in the UIWebView.
-	[webView loadRequest:requestObj];
-	
+	[settingLabel setText: @"PG"];
     [super viewDidLoad];
 }
 
@@ -75,10 +54,22 @@
 
 
 - (void)dealloc {
-    [webView release];
+    [uiView release];
 	
 	[super dealloc];
 }
 
+-(IBAction)setToPG {
+    [settingLabel setText: @"PG"];
+}
+-(IBAction)setToPG13 {
+     [settingLabel setText: @"PG-13"];
+}
+-(IBAction)setToR {
+     [settingLabel setText: @"R"];
+}
+-(IBAction)setToCustom {
+     [settingLabel setText: @"Custom"];
+}
 
 @end
