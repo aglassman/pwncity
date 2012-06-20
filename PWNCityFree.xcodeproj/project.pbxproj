@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* PWNCityFreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PWNCityFreeViewController.m */; };
 		635262F3106758F300B39353 /* PropsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635262F1106758F300B39353 /* PropsViewController.m */; };
 		635262F4106758F300B39353 /* PropsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635262F2106758F300B39353 /* PropsViewController.xib */; };
+		63B2E2971589547200ED34F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2E2961589547200ED34F9 /* iAd.framework */; };
 		63C7751F10674EAC0090D856 /* bg copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C7751D10674EAC0090D856 /* bg copy.png */; };
 		63C7752010674EAC0090D856 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C7751E10674EAC0090D856 /* icon.png */; };
 		63C77533106751270090D856 /* 1st copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C77531106751270090D856 /* 1st copy.png */; };
@@ -39,6 +40,7 @@
 		635262F0106758F300B39353 /* PropsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsViewController.h; sourceTree = "<group>"; };
 		635262F1106758F300B39353 /* PropsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsViewController.m; sourceTree = "<group>"; };
 		635262F2106758F300B39353 /* PropsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PropsViewController.xib; path = Classes/PropsViewController.xib; sourceTree = "<group>"; };
+		63B2E2961589547200ED34F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iAd.framework; sourceTree = "<group>"; };
 		63C7751D10674EAC0090D856 /* bg copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg copy.png"; sourceTree = "<group>"; };
 		63C7751E10674EAC0090D856 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		63C77531106751270090D856 /* 1st copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1st copy.png"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				63B2E2971589547200ED34F9 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +123,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63B2E2961589547200ED34F9 /* iAd.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -210,6 +214,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -228,6 +236,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PWNCityFree_Prefix.pch;
 				INFOPLIST_FILE = "PWNCity-Info.plist";
